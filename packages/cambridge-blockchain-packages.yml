@@ -1,0 +1,36 @@
+generated: '2026-07-18'
+method: searched
+source: https://www.npmjs.com/org/cambridge-blockchain
+notes: >-
+  First-party npm packages published under the @cambridge-blockchain scope.
+  These are general cryptographic / blockchain-attestation libraries, not
+  API client SDKs (the company published no public API). Both were last
+  released in April 2022; the company was acquired by Blockchains, Inc. in
+  December 2020 and its own domain (cambridge-blockchain.com) is no longer
+  served. Recorded as real first-party packages, not as API SDKs.
+packages:
+  - language: javascript
+    registry: npm
+    name: "@cambridge-blockchain/crypto-lib"
+    version: 2.1.1
+    url: https://www.npmjs.com/package/@cambridge-blockchain/crypto-lib
+    repository: https://github.com/cambridge-blockchain/crypto-lib
+    install: npm install @cambridge-blockchain/crypto-lib
+    license: MIT
+    description: >-
+      Encryption/decryption of data and computation of attestations for the
+      blockchain.
+    official: true
+    last_published: '2022-04-04'
+  - language: javascript
+    registry: npm
+    name: "@cambridge-blockchain/ngx-crypto"
+    version: 1.0.0
+    url: https://www.npmjs.com/package/@cambridge-blockchain/ngx-crypto
+    repository: https://github.com/cambridge-blockchain/ngx-crypto
+    install: npm install @cambridge-blockchain/ngx-crypto
+    license: MIT
+    description: >-
+      Angular service wrapper around the Cambridge Blockchain crypto library.
+    official: true
+    last_published: '2022-04-04'
